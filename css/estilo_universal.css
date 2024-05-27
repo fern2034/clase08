@@ -1,0 +1,44 @@
+*{ /*selector universal*/
+    margin: 0;
+    padding: 0;
+}
+
+/*selector de etiqueta*/
+
+h1{
+    color: blue;
+    margin: 10px;
+    font-size: 30px;
+}
+h2{
+    font-size: 25px;
+    margin: 15px;
+    color:orange;
+}
+p{
+    font-size: 15px;
+    color:darkorange;
+}
+.texto{ /*selector de clase*/
+    font-size: 30px;
+    color:blueviolet;
+}
+#valor{ /*Selector de identificacion*/
+    color:brown;
+    font-size: 25px;
+    font-family: Arial;
+}
+#valor1{
+    color:brown;
+    font-size: 25px;
+    font-family: Arial;
+}
+div{ /*Selector hijo*/
+    margin-top: 50px;
+    width: 400px;
+    border-style:solid;
+}
+div > p{
+    font-size: 15px;
+    color:orangered;
+}
